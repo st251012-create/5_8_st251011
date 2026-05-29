@@ -422,91 +422,174 @@
         </div>
     </section>
 
-                    <div class="bg-eva-dark p-6 border border-gray-800 relative overflow-hidden h-full flex flex-col">
-                        <div class="absolute -right-10 -top-10 text-9xl text-gray-800 opacity-20 font-serif rotate-12">A</div>
-                        <p class="text-gray-300 text-sm leading-relaxed mb-6 relative z-10 shrink-0">
-                            第3新東京市に襲来する正体不明の敵の総称。形態や能力は個体によって全く異なり、巨大な人型から幾何学的な形状、さらには微小なサイズのものまで存在する。<br>
-                            共通して「A.T.フィールド」と呼ばれる強力な絶対不可侵領域を持ち、通常兵器では傷つけることすら困難。コアと呼ばれる赤い球体を破壊されると活動を停止する。
+    <!-- EVANGELION セクション -->
+    <section id="evas" class="py-24 bg-eva-black relative border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="eva-title text-4xl text-white inline-block relative">
+                    汎用人型決戦兵器
+                    <span class="absolute -bottom-2 left-0 w-full h-1 bg-eva-purple"></span>
+                </h2>
+                <p class="text-gray-400 font-sans font-bold tracking-widest text-sm mt-4">EVANGELION</p>
+            </div>
+
+            <div class="space-y-12">
+                <!-- 初号機 -->
+                <div class="bg-eva-dark border border-eva-purple/30 p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center relative overflow-hidden group hover:border-eva-purple transition-colors">
+                    <div class="absolute -right-16 -top-16 text-[12rem] font-serif font-bold text-eva-purple/5 select-none pointer-events-none group-hover:text-eva-purple/10 transition-colors">01</div>
+                    <div class="md:w-1/3 text-center md:text-left z-10">
+                        <h3 class="eva-title text-3xl text-white mb-2">エヴァンゲリオン<br>初号機</h3>
+                        <p class="text-eva-purple font-bold tracking-widest text-sm mb-6">TEST TYPE 01</p>
+                        <div class="inline-flex items-center px-3 py-1 bg-eva-purple/20 border border-eva-purple text-eva-purple text-xs font-bold">
+                            PILOT: IKARI SHINJI
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 z-10 text-gray-300 text-sm md:text-base leading-relaxed space-y-4">
+                        <p>
+                            NERV本部で建造されたテストタイプの機体。紫と蛍光緑のカラーリングが特徴。碇シンジが搭乗する。
                         </p>
-                        
-                        <!-- スクロール可能な使徒リスト -->
-                        <div class="space-y-4 relative z-10 mt-2 max-h-[450px] overflow-y-auto pr-3 custom-scrollbar flex-1">
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第1使徒 アダム <span class="text-gray-500 text-xs font-mono">ADAM</span></h4>
-                                <p class="text-xs text-gray-400">セカンドインパクトの原因となった光の巨人。生命の実を持つ。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第2使徒 リリス <span class="text-gray-500 text-xs font-mono">LILITH</span></h4>
-                                <p class="text-xs text-gray-400">ジオフロント最深部に磔にされている白い巨人。人類の起源。知恵の実を持つ。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第3使徒 サキエル <span class="text-gray-500 text-xs font-mono">SACHIEL</span></h4>
-                                <p class="text-xs text-gray-400">物語冒頭に襲来した水陸両用の人型使徒。初号機の初陣の相手。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第4使徒 シャムシエル <span class="text-gray-500 text-xs font-mono">SHAMSHEL</span></h4>
-                                <p class="text-xs text-gray-400">飛行形態と直立形態を持つ。光の鞭（ビーム状の触手）を武器とする。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第5使徒 ラミエル <span class="text-gray-500 text-xs font-mono">RAMIEL</span></h4>
-                                <p class="text-xs text-gray-400">青い正八面体の形状。強力な加粒子砲と強固なA.T.フィールドを持つ（ヤシマ作戦）。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第6使徒 ガギエル <span class="text-gray-500 text-xs font-mono">GAGIEL</span></h4>
-                                <p class="text-xs text-gray-400">巨大な魚のような姿をした水中専用の使徒。太平洋艦隊を襲撃。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第7使徒 イスラフェル <span class="text-gray-500 text-xs font-mono">ISRAFEL</span></h4>
-                                <p class="text-xs text-gray-400">攻撃を受けると2体に分裂する能力を持つ。シンジとアスカのユニゾン攻撃で撃破。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第8使徒 サンダルフォン <span class="text-gray-500 text-xs font-mono">SANDALPHON</span></h4>
-                                <p class="text-xs text-gray-400">浅間山の火口内で蛹の状態で発見され、熱耐性に特化した姿で羽化。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第9使徒 マトリエル <span class="text-gray-500 text-xs font-mono">MATARAEL</span></h4>
-                                <p class="text-xs text-gray-400">停電中の第3新東京市に襲来。強酸性の溶解液を分泌する多数の目を持つ蜘蛛型の使徒。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第10使徒 サハクィエル <span class="text-gray-500 text-xs font-mono">SAHAQUIEL</span></h4>
-                                <p class="text-xs text-gray-400">衛星軌道上から自身を巨大な爆弾として落下させてきた巨大な使徒。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第11使徒 イロウル <span class="text-gray-500 text-xs font-mono">IREUL</span></h4>
-                                <p class="text-xs text-gray-400">ナノマシンサイズの微生物型使徒。NERV本部のMAGIシステムをハッキングした。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第12使徒 レリエル <span class="text-gray-500 text-xs font-mono">LELIEL</span></h4>
-                                <p class="text-xs text-gray-400">地面の影に見える黒い模様が本体。「ディラックの海」で初号機を内部へ取り込んだ。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第13使徒 バルディエル <span class="text-gray-500 text-xs font-mono">BARDIEL</span></h4>
-                                <p class="text-xs text-gray-400">粘菌状の使徒。起動実験中のエヴァ3号機（搭乗者：トウジ）に寄生し乗っ取った。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第14使徒 ゼルエル <span class="text-gray-500 text-xs font-mono">ZERUEL</span></h4>
-                                <p class="text-xs text-gray-400">「最強の拒絶タイプ」。圧倒的な戦闘力でジオフロント深部まで単機で侵攻した。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第15使徒 アラエル <span class="text-gray-500 text-xs font-mono">ARAEL</span></h4>
-                                <p class="text-xs text-gray-400">衛星軌道上から光る鳥のような姿で現れ、精神攻撃でアスカの心を崩壊させた。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第16使徒 アルミサエル <span class="text-gray-500 text-xs font-mono">ALMISAEL</span></h4>
-                                <p class="text-xs text-gray-400">光る二重螺旋のリング状。零号機と融合しようとし、レイの自爆により殲滅された。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第17使徒 タブリス <span class="text-gray-500 text-xs font-mono">TABRIS</span></h4>
-                                <p class="text-xs text-gray-400">自由意志を持つ人間の姿をした使徒（渚カヲル）。エヴァ弐号機を外部から操った。</p>
-                            </div>
-                            <div class="bg-black/50 p-4 border-l-2 border-eva-red">
-                                <h4 class="text-white font-bold mb-1 flex justify-between">第18使徒 リリン <span class="text-gray-500 text-xs font-mono">LILIN</span></h4>
-                                <p class="text-xs text-gray-400">第2使徒リリスから生まれた生命体。すなわち「人類そのもの」を指す。</p>
-                            </div>
+                        <p>
+                            他の機体とは異なりリリスよりコピーされており、活動限界を迎えてもなおパイロットの意思（あるいは機体自身の意思）により再起動し、暴走状態に陥ることがある。
+                            その際、凄まじい戦闘力を発揮し、時には使徒を捕食するような行動さえ見せる。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 零号機 -->
+                <div class="bg-eva-dark border border-yellow-500/30 p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center relative overflow-hidden group hover:border-yellow-500/50 transition-colors">
+                    <div class="absolute -left-16 -bottom-16 text-[12rem] font-serif font-bold text-yellow-500/5 select-none pointer-events-none group-hover:text-yellow-500/10 transition-colors">00</div>
+                    <div class="md:w-2/3 text-gray-300 text-sm md:text-base leading-relaxed space-y-4 order-2 md:order-1 z-10">
+                        <p>
+                            エヴァンゲリオンの実用化に向けたプロトタイプ（試作機）。山吹色（後に青色に改修）の機体カラーと、単眼の頭部が特徴。
+                        </p>
+                        <p>
+                            初期は起動実験中に暴走事故を起こし凍結されていたが、後に実戦投入される。プロトタイプであるため武装の運用制限が多く、主に他の機体のサポートや防御任務に就くことが多い。
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 text-center md:text-right order-1 md:order-2 z-10">
+                        <h3 class="eva-title text-3xl text-white mb-2">エヴァンゲリオン<br>零号機</h3>
+                        <p class="text-yellow-500 font-bold tracking-widest text-sm mb-6">PROTOTYPE 00</p>
+                        <div class="inline-flex items-center px-3 py-1 bg-yellow-500/20 border border-yellow-500 text-yellow-500 text-xs font-bold">
+                            PILOT: AYANAMI REI
                         </div>
                     </div>
                 </div>
 
+                <!-- 弐号機 -->
+                <div class="bg-eva-dark border border-eva-red/30 p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center relative overflow-hidden group hover:border-eva-red/60 transition-colors">
+                    <div class="absolute -right-16 -bottom-16 text-[12rem] font-serif font-bold text-eva-red/5 select-none pointer-events-none group-hover:text-eva-red/10 transition-colors">02</div>
+                    <div class="md:w-1/3 text-center md:text-left z-10">
+                        <h3 class="eva-title text-3xl text-white mb-2">エヴァンゲリオン<br>弐号機</h3>
+                        <p class="text-eva-red font-bold tracking-widest text-sm mb-6">PRODUCTION MODEL 02</p>
+                        <div class="inline-flex items-center px-3 py-1 bg-eva-red/20 border border-eva-red text-eva-red text-xs font-bold">
+                            PILOT: ASUKA LANGLEY
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 z-10 text-gray-300 text-sm md:text-base leading-relaxed space-y-4">
+                        <p>
+                            NERVドイツ支部で建造された、エヴァンゲリオン初の「実戦配備用」モデル（プロダクションモデル）。鮮やかな赤い機体カラーと4つの眼が特徴。
+                        </p>
+                        <p>
+                            様々な武装を使いこなせるよう設計されており、初期から高い完成度と戦闘力を誇る。パイロットであるアスカの性格を反映し、アグレッシブな戦闘スタイルを見せる。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANGELS セクション -->
+    <section id="angels" class="py-24 bg-eva-black relative border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="eva-title text-4xl text-white inline-block relative">
+                    使徒
+                    <span class="absolute -bottom-2 left-0 w-full h-1 bg-eva-red"></span>
+                </h2>
+                <p class="text-gray-400 font-sans font-bold tracking-widest text-sm mt-4">ANGELS</p>
+            </div>
+
+            <div class="bg-eva-dark p-6 md:p-10 border border-gray-800 relative overflow-hidden">
+                <div class="absolute -right-10 -top-10 text-9xl text-gray-800 opacity-20 font-serif rotate-12 pointer-events-none">A</div>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-8 relative z-10">
+                    第3新東京市に襲来する正体不明の敵の総称。形態や能力は個体によって全く異なり、巨大な人型から幾何学的な形状、さらには微小なサイズのものまで存在する。<br>
+                    共通して「A.T.フィールド」と呼ばれる強力な絶対不可侵領域を持ち、通常兵器では傷つけることすら困難。コアと呼ばれる赤い球体を破壊されると活動を停止する。
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 relative z-10">
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第1使徒 アダム <span class="text-gray-500 text-xs font-mono">ADAM</span></h4>
+                        <p class="text-xs text-gray-400">セカンドインパクトの原因となった光の巨人。生命の実を持つ。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第2使徒 リリス <span class="text-gray-500 text-xs font-mono">LILITH</span></h4>
+                        <p class="text-xs text-gray-400">ジオフロント最深部に磔にされている白い巨人。人類の起源。知恵の実を持つ。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第3使徒 サキエル <span class="text-gray-500 text-xs font-mono">SACHIEL</span></h4>
+                        <p class="text-xs text-gray-400">物語冒頭に襲来した水陸両用の人型使徒。初号機の初陣の相手。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第4使徒 シャムシエル <span class="text-gray-500 text-xs font-mono">SHAMSHEL</span></h4>
+                        <p class="text-xs text-gray-400">飛行形態と直立形態を持つ。光の鞭（ビーム状の触手）を武器とする。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第5使徒 ラミエル <span class="text-gray-500 text-xs font-mono">RAMIEL</span></h4>
+                        <p class="text-xs text-gray-400">青い正八面体の形状。強力な加粒子砲と強固なA.T.フィールドを持つ（ヤシマ作戦）。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第6使徒 ガギエル <span class="text-gray-500 text-xs font-mono">GAGIEL</span></h4>
+                        <p class="text-xs text-gray-400">巨大な魚のような姿をした水中専用の使徒。太平洋艦隊を襲撃。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第7使徒 イスラフェル <span class="text-gray-500 text-xs font-mono">ISRAFEL</span></h4>
+                        <p class="text-xs text-gray-400">攻撃を受けると2体に分裂する能力を持つ。シンジとアスカのユニゾン攻撃で撃破。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第8使徒 サンダルフォン <span class="text-gray-500 text-xs font-mono">SANDALPHON</span></h4>
+                        <p class="text-xs text-gray-400">浅間山の火口内で蛹の状態で発見され、熱耐性に特化した姿で羽化。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第9使徒 マトリエル <span class="text-gray-500 text-xs font-mono">MATARAEL</span></h4>
+                        <p class="text-xs text-gray-400">停電中の第3新東京市に襲来。強酸性の溶解液を分泌する多数の目を持つ蜘蛛型の使徒。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第10使徒 サハクィエル <span class="text-gray-500 text-xs font-mono">SAHAQUIEL</span></h4>
+                        <p class="text-xs text-gray-400">衛星軌道上から自身を巨大な爆弾として落下させてきた巨大な使徒。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第11使徒 イロウル <span class="text-gray-500 text-xs font-mono">IREUL</span></h4>
+                        <p class="text-xs text-gray-400">ナノマシンサイズの微生物型使徒。NERV本部のMAGIシステムをハッキングした。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第12使徒 レリエル <span class="text-gray-500 text-xs font-mono">LELIEL</span></h4>
+                        <p class="text-xs text-gray-400">地面の影に見える黒い模様が本体。「ディラックの海」で初号機を内部へ取り込んだ。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第13使徒 バルディエル <span class="text-gray-500 text-xs font-mono">BARDIEL</span></h4>
+                        <p class="text-xs text-gray-400">粘菌状の使徒。起動実験中のエヴァ3号機（搭乗者：トウジ）に寄生し乗っ取った。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第14使徒 ゼルエル <span class="text-gray-500 text-xs font-mono">ZERUEL</span></h4>
+                        <p class="text-xs text-gray-400">「最強の拒絶タイプ」。圧倒的な戦闘力でジオフロント深部まで単機で侵攻した。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第15使徒 アラエル <span class="text-gray-500 text-xs font-mono">ARAEL</span></h4>
+                        <p class="text-xs text-gray-400">衛星軌道上から光る鳥のような姿で現れ、精神攻撃でアスカの心を崩壊させた。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第16使徒 アルミサエル <span class="text-gray-500 text-xs font-mono">ALMISAEL</span></h4>
+                        <p class="text-xs text-gray-400">光る二重螺旋のリング状。零号機と融合しようとし、レイの自爆により殲滅された。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第17使徒 タブリス <span class="text-gray-500 text-xs font-mono">TABRIS</span></h4>
+                        <p class="text-xs text-gray-400">自由意志を持つ人間の姿をした使徒（渚カヲル）。エヴァ弐号機を外部から操った。</p>
+                    </div>
+                    <div class="bg-black/50 p-4 border-l-2 border-eva-red hover:bg-gray-800 transition-colors">
+                        <h4 class="text-white font-bold mb-1 flex justify-between">第18使徒 リリン <span class="text-gray-500 text-xs font-mono">LILIN</span></h4>
+                        <p class="text-xs text-gray-400">第2使徒リリスから生まれた生命体。すなわち「人類そのもの」を指す。</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
